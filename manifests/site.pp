@@ -57,6 +57,7 @@ node default {
   include git
   include hub
   include nginx
+  include homebrew
 
   #jason's stuff
   include alfred
@@ -70,16 +71,17 @@ node default {
   include firefox
   include github_for_mac
   include hipchat
-  include inconsolata  
-  include istatmenus4
+  include inconsolata
+  #include istatmenus4
   include iterm2::stable
   include java
-  include kindle
+  #include kindle
   include mailbox
   include mongodb
   include mysql
   include ohmyzsh
   include onepassword
+  include sequel_pro
   include skype
   include sourcetree
   include spotify
