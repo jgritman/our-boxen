@@ -69,6 +69,7 @@ node default {
   include eclipse::ggts
   include evernote
   include firefox
+  include flux
   include github_for_mac
   include hipchat
   include inconsolata
